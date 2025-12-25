@@ -8,10 +8,10 @@
 #include "addons/RTDBHelper.h"
 
 // --- WIFI & FIREBASE CONFIG ---
-#define WIFI_SSID "WIFI"          
-#define WIFI_PASSWORD "WIFI"  
-#define API_KEY "AIzaSyC6Y1_5jSQp4hLLtaUn9ApWvRm34qtClUI"
-#define DATABASE_URL "cpc357-6fbdf-default-rtdb.asia-southeast1.firebasedatabase.app" 
+#define WIFI_SSID "WIFI_NAME"          
+#define WIFI_PASSWORD "WIFI_PASSWORD"  
+#define API_KEY "FIREBASE_API_KEY"
+#define DATABASE_URL "FIREBASE_URL" 
 
 // --- PINS: SENSORS & LED ---
 const int lightSensorPin = A0;
