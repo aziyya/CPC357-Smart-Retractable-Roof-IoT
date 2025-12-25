@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+/* Global */
+body {
+  margin: 0;
+  background: #f4f6f9;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Header */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: linear-gradient(135deg, #1a237e, #283593);
   color: white;
+  padding: 28px 32px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.subtitle {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Grid */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 30px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Values */
+.value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 14px 0 6px;
+  text-transform: uppercase;
+}
+
+.status-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Status Colors */
+.status-open { color: #2e7d32; }
+.status-closed { color: #c62828; }
+.status-raining { color: #1565c0; }
+.status-clear { color: #2e7d32; }
+
+/* Graph */
+.graph-card {
+  grid-column: span 3;
+}
+
+.graph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.graph-subtitle {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.chart-container {
+  background: #f9fafc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.current-stats {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  font-size: 0.95rem;
+  text-align: right;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
+
+  .graph-card {
+    grid-column: span 1;
   }
 }
