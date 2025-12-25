@@ -8,8 +8,8 @@
 #include "addons/RTDBHelper.h"
 
 // --- WIFI & FIREBASE CONFIG ---
-#define WIFI_SSID "aziy's"          
-#define WIFI_PASSWORD "aziyhandsome"  
+#define WIFI_SSID "WIFI"          
+#define WIFI_PASSWORD "WIFI"  
 #define API_KEY "AIzaSyC6Y1_5jSQp4hLLtaUn9ApWvRm34qtClUI"
 #define DATABASE_URL "cpc357-6fbdf-default-rtdb.asia-southeast1.firebasedatabase.app" 
 
