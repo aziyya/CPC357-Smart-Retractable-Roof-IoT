@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# 🏟️ Smart Retractable Roof Court Monitoring System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An IoT-based automation system for smart cities, designed to manage sport court roofing and lighting based on real-time environmental conditions. This project supports **UN Sustainable Development Goal (SDG) 11: Sustainable Cities and Communities**.
 
-## Available Scripts
+## 🚀 Features
+* **Automatic Roof Control:** 4x TT Gear Motors controlled via ESP8266 and L293D Shield.
+* **Smart Lighting:** LED logic based on Light sensor thresholds.
+* **Real-time Monitoring:** Data synced to **Firebase Realtime Database**.
+* **Weather Adaptive:** Prevents infrastructure damage and optimizes energy use.
 
-In the project directory, you can run:
+## 🛠️ Hardware Requirements
+* **Microcontroller:** ESP8266 (NodeMCU)
+* **Motor Driver:** L293D Motor Shield
+* **Motors:** 4x 3V-6V Dual Axis TT Gear Motors
+* **Sensors:** * LDR (Light Dependent Resistor)
+    * Raindrop Sensor Module
+* **Lighting:** High-brightness LEDs
+* **Power:** 6V External Power Supply 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🌍 SDG 11 Impact Analysis
+This project addresses **Target 11.7** (Universal access to public spaces) and **Target 11.b** (Disaster resilience).
+* **Resilience:** Protects public sports infrastructure from flash floods/heavy rain.
+* **Efficiency:** Reduces energy consumption by utilizing natural light when available.
+* **Inclusion:** Ensures community spaces remain usable regardless of weather conditions.
