@@ -24,7 +24,7 @@ An IoT-based automation system for smart cities, designed to manage sport court 
 * Visual Studio Code
 * Firebase Realtime Database
 
-* * ## 💻 Libraries in Arduino IDE
+## 💻 Libraries in Arduino IDE
 * **esp8266:** by ESP8266 Community
 * **Firebase ESP8266:** by Mobizt
 * **Arduino JSON:** by Benoit Blanchon  
