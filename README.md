@@ -13,13 +13,13 @@ An IoT-based automation system for smart cities, designed to manage sport court 
 * **Motor Driver:** L293D Motor Shield
 * **External Power:** 4x 1.5V Batteries
 * **Actuators:**
-* - 2x 3V-6V Dual Axis TT Gear Motors
-* - 1x High-brightness LED
+  - 2x 3V-6V Dual Axis TT Gear Motors
+  - 1x High-brightness LED
 * **Sensors:**
-* - LDR (Light Dependent Resistor)
-* - Raindrop Sensor Module
+  - LDR (Light Dependent Resistor)
+  - Raindrop Sensor Module
 
-* ## 💻 Software Requirements
+## 💻 Software Requirements
 * Arduino IDE
 * Visual Studio Code
 * Firebase Realtime Database
